@@ -1,4 +1,13 @@
-# Bash Battle Arena generated files
+Arena/
+Arena_Boss/
+Backups/
+Victory_Archive/
+settings.conf
+test.txt
+change_log.txt
+Backup/
+Archive/
+Battlefield/# Bash Battle Arena generated files
 bash-battle-arena/Arena/
 bash-battle-arena/Arena_Boss/
 bash-battle-arena/Backup/
