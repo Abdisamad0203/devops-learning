@@ -1,3 +1,10 @@
-*.key
+# Bash Battle Arena generated files
+bash-battle-arena/Arena/
+bash-battle-arena/Arena_Boss/
+bash-battle-arena/Backup/
+bash-battle-arena/Victory_Archive/
+bash-battle-arena/*.txt
+bash-battle-arena/*.log
+bash-battle-arena/change_log.txt*.key
 *.pem
 *id_rsa*
