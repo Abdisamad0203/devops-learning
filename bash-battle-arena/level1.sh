@@ -1,8 +1,5 @@
 #!/bin/bash
-
-mkdir Arena
-cd Arena
-
+mkdir -p Arena
+cd Arena || exit
 touch warrior.txt mage.txt archer.txt
-
 ls
