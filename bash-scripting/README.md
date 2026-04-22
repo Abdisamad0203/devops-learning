@@ -1,27 +1,39 @@
-# Bash Scripting Module
+# Bash scripting
 
-## Scripts
+These are some simple Bash scripts I wrote while learning.
 
-- calculator.sh → arithmetic operations with user input
-- file_ops.sh → directory and file automation
-- challenge3.sh → file existence + permissions checker
-- challenge4.sh → backup script with timestamps
+## scripts
 
-## Key Learnings
+- calculator.sh  
+  takes two numbers from the user and does basic maths
 
-- Using `read` for user input
-- Writing conditional logic with `if`
-- Working with files and directories
-- Understanding permissions with `-r`, `-w`, and `-x`
-- Automating repetitive tasks with Bash
+- file_ops.sh  
+  creates a folder and a file, writes to it, then shows what’s inside
 
-## Challenge I Overcame
+- challenge3.sh  
+  checks if a file exists and shows its permissions
 
-I initially struggled with file paths and directory context.  
-Some scripts failed because the target file was not in the current directory.  
-I fixed this by learning to use correct relative paths such as `bash_demo/demo.txt`.
+- challenge4.sh  
+  creates a backup folder with a timestamp and copies .txt files into it
 
-## Why Bash Matters in DevOps
+## what I learned
 
-Bash is a core DevOps skill because it helps automate tasks, manage Linux systems, and support CI/CD workflows.  
-It is commonly used for server administration, deployment scripts, troubleshooting, and automation.
+- how to take input using read  
+- how to use if statements  
+- how to work with files and directories  
+- how permissions work (read, write, execute)  
+- how Bash can automate small tasks  
+
+## one thing I struggled with
+
+file paths.
+
+I kept running scripts from the wrong place, so they couldn’t find the files.  
+once I understood where I was in the terminal and used the right paths, it started working properly.
+
+## why bash matters
+
+a lot of DevOps work happens in the terminal.
+
+even when using tools like Docker or CI/CD, you still need to navigate systems, check logs, and automate things.  
+Bash is what makes that easier.
