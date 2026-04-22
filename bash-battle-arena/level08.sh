@@ -1,11 +1,13 @@
 #!/bin/bash
 
-dir="Arena"
-term="Error"
+search=${1:-Error}
+dir=${2:-Arena}
 
 if [ ! -d "$dir" ]; then
-echo "Directory does not exist"
+echo "Folder not found"
 exit 1
 fi
 
-grep -l "$term" "$dir"/*.log 2>/dev/null
+echo "Looking for '$search' in log files..."
+
+grep -l "$search" "$dir"/*.log 2>/dev/null

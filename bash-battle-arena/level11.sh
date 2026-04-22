@@ -1,17 +1,19 @@
 #!/bin/bash
 
-dir="Arena"
-threshold=1
+dir=${1:-Arena}
+limit=${2:-5}
 
-usage=$(du -sm "$dir" 2>/dev/null | awk '{print $1}')
-
-if [ -z "$usage" ]; then
+if [ ! -d "$dir" ]; then
 echo "Directory not found"
 exit 1
 fi
 
-if [ "$usage" -gt "$threshold" ]; then
-echo "Usage is $usage MB, above threshold"
+usage=$(du -sm "$dir" | awk '{print $1}')
+
+echo "Current usage: ${usage}MB"
+
+if [ "$usage" -gt "$limit" ]; then
+echo "ALERT: usage exceeded ${limit}MB"
 else
-echo "Usage is $usage MB"
+echo "Usage is within limit"
 fi
