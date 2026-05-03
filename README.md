@@ -1,60 +1,66 @@
 # DevOps Learning
 
-This repo is where I’m documenting my hands-on DevOps learning as I go.
+Hands-on DevOps journey. Learning by building, not just watching.
 
-So far I’ve covered Linux fundamentals and Bash scripting.
+---
 
-## Linux
+## Projects
 
-I’ve been working through the core Linux basics, including:
+devops-learning/
+- linux/
+- bash/
+  - scripting/
+  - battle-arena/
+- networking/
+- (next: docker, aws, ci/cd...)
 
-- file system navigation  
-- permissions and ownership  
-- process management  
-- text processing tools like grep, awk and sed  
-- OverTheWire Bandit up to level 20  
+---
 
-Most of this has been about getting comfortable in the terminal before moving into more advanced DevOps tools.
+## What I've Covered
 
-## Bash Scripting
+Linux
+- File system navigation  
+- Permissions & ownership  
+- Process management  
+- Tools: grep, awk, sed  
+- OverTheWire Bandit (0–20)
 
-This section contains my first Bash scripting exercises.
+Bash
+- Basic scripting  
+- File handling & automation  
+- Conditionals and input  
 
-Scripts included:
+Networking
+- EC2 instance setup  
+- Security groups (ports 22, 80, 443)  
+- NGINX web server  
+- Domain → IP (DNS using DuckDNS)
 
-- calculator.sh — takes two numbers and performs basic arithmetic  
-- file_ops.sh — creates a directory and file, writes to it, and displays the contents  
-- challenge3.sh — checks if a file exists and shows its permissions  
-- challenge4.sh — creates a timestamped backup folder and copies .txt files into it  
+---
 
-### What I learned
+## What I Learned
 
-- taking user input with read  
-- using if statements for logic  
-- how file paths can break or fix a script  
-- checking read, write and execute permissions  
-- using Bash to automate small repetitive tasks  
+- How systems actually work  
+- Why small mistakes (file paths, ports) break things  
+- How to troubleshoot properly  
 
-### One issue I ran into
+---
 
-File paths confused me at the start.
+## Current Focus
 
-I was running scripts from one location while the files I needed were somewhere else, so things kept failing even though the script itself looked fine. Once I fixed that, it made a lot more sense.
+Docker (in progress)
 
-## Why Bash matters in DevOps
-
-A lot of DevOps work starts in the terminal.
-
-Even when using tools like Docker, CI/CD or cloud platforms, you still end up navigating systems, checking logs, and automating tasks. Bash is what ties a lot of that together.
+---
 
 ## Next
 
-Next up in my learning:
-
-- Git  
-- Networking  
-- Docker  
 - AWS  
-- Terraform  
 - CI/CD  
+- Terraform  
 - Kubernetes  
+
+---
+
+## Goal
+
+Become a DevOps / Cloud Engineer by building real projects consistently.
