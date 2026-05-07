@@ -1,16 +1,11 @@
-# DevOps Learning 🚀
+  Repo Structure
 
- ✅ 🐧 linux
- ✅ ⚙️ bash
- ✅ 🌐 networking
- 🚧 🐳 docker
- ⏳ ☁️ aws
- ⏳ 🔄 ci-cd
- ⏳ 📦 kubernetes
- ⏳ 🏗️ terraform
- ⏳ 🚀 projects
-
-
-📌 Goal
-
-Build a strong DevOps portfolio with real projects, clear documentation, and consistent progress.
+- ✅ 🐧 Linux
+- ✅ ⚙️ Bash
+- ✅ 🌐 Networking
+- 🚧 🐳 Docker
+- ⏳ ☁️ AWS
+- ⏳ 🔄 CI/CD
+- ⏳ 📦 Kubernetes
+- ⏳ 🏗️ Terraform
+- ⏳ 🚀 Projects
