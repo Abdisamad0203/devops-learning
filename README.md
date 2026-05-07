@@ -1,15 +1,14 @@
 # DevOps Learning 🚀
 
-devops-learning/
-├── ✅ 🐧 linux
-├── ✅ ⚙️ bash
-├── ✅ 🌐 networking
-├── 🚧 🐳 docker
-├── ⏳ ☁️ aws
-├── ⏳ 🔄 ci-cd
-├── ⏳ 📦 kubernetes
-├── ⏳ 🏗️ terraform
-└── ⏳ 🚀 projects
+ ✅ 🐧 linux
+ ✅ ⚙️ bash
+ ✅ 🌐 networking
+ 🚧 🐳 docker
+ ⏳ ☁️ aws
+ ⏳ 🔄 ci-cd
+ ⏳ 📦 kubernetes
+ ⏳ 🏗️ terraform
+ ⏳ 🚀 projects
 
 
 📌 Goal
