@@ -1,6 +1,6 @@
 # DevOps Learning Journey
 
-Hands-on DevOps projects, labs and notes covering cloud, containers, infrastructure as code and CI/CD.
+Hands-on projects and notes from my DevOps learning, covering Linux, networking, cloud, containers, infrastructure as code and CI/CD.
 
 ## Tech Stack
 
@@ -10,36 +10,38 @@ Hands-on DevOps projects, labs and notes covering cloud, containers, infrastruct
 
 ## Modules
 
-| # | Topic | What I worked on |
-|---|---|---|
-| 01 | Linux | Files, permissions, processes and command line |
-| 02 | Bash | Shell scripting and automation |
-| 03 | Git | Version control and GitHub workflows |
-| 04 | Networking | DNS, HTTP, TCP/IP and OSI basics |
-| 05 | Docker | Images, containers, Dockerfiles and Compose |
-| 06 | AWS | VPC, EC2, IAM, CloudWatch and load balancing |
-| 07 | Terraform | Infrastructure as Code and reusable infrastructure |
-| 08 | CI/CD | GitHub Actions and deployment pipelines |
-| 09 | Kubernetes | Container orchestration and deployments |
+| # | Module | Focus |
+| :---: | :--- | :--- |
+| 01 | [Linux](./01-linux/) | Command line, permissions, processes and system basics |
+| 02 | [Bash](./02-bash/) | Shell scripting and task automation |
+| 03 | [Git](./03-git/) | Version control, branches and GitHub workflows |
+| 04 | [Networking](./04-networking/) | DNS, HTTP, TCP/IP and networking fundamentals |
+| 05 | [Docker](./05-docker/) | Images, containers, Dockerfiles and Docker Compose |
+| 06 | [AWS](./06-aws/) | EC2, VPC, IAM, S3, CloudWatch and load balancing |
+| 07 | [Terraform](./07-terraform/) | Infrastructure as Code, state and AWS infrastructure |
+| 08 | [CI/CD](./08-cicd/) | GitHub Actions, automated testing and Docker publishing |
+| 09 | [Kubernetes](./09-kubernetes/) | Container orchestration, deployments and services |
 
 ## Featured Projects
 
 ### AWS Application Load Balancer
-Built two EC2 instances behind an Application Load Balancer with health checks and security group isolation.
 
-### Terraform WordPress
-Created AWS infrastructure with Terraform and documented the deployment process.
+Built two EC2 instances behind an Application Load Balancer with health checks and security group rules controlling traffic.
 
-### Docker Multi-Container App
-Worked with multiple services using Docker and Docker Compose.
+### Terraform Infrastructure
 
-### CI/CD
-Built GitHub Actions workflows to automate build, test and deployment steps.
+Created AWS infrastructure with Terraform and practised managing resources through code.
+
+### CI/CD Pipelines
+
+Built GitHub Actions workflows that run automated checks and publish a Docker image to Docker Hub.
+
+[View CI/CD module](./08-cicd/)
 
 ## Repository
 
-Each module contains a mix of practical labs, project code, screenshots, short notes, deployment steps and troubleshooting.
+Each module contains the practical work completed during that part of my DevOps learning, including project files, notes, screenshots and troubleshooting where relevant.
 
 ## Current Focus
 
-Building stronger AWS, Terraform and CI/CD skills through hands-on projects, with Kubernetes next.
+AWS, Terraform and CI/CD, followed by Kubernetes.

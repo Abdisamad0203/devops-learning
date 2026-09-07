@@ -28,3 +28,17 @@ CI/CD helps automate the steps between changing code and shipping it.
 - Docker Hub publishing
 - Repository secrets
 - Debugging failed workflows
+
+## Pipeline Evidence
+
+### CI Pipeline
+
+The CI workflow runs linting and tests automatically on pushes and pull requests.
+
+![CI Pipeline](./screenshots/ci-pipeline-success.png)
+
+### CD Pipeline
+
+The CD workflow builds the Docker image and publishes it to Docker Hub after a push to main.
+
+![CD Pipeline](./screenshots/cd-pipeline-success.png)
